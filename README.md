@@ -1,6 +1,6 @@
 # [Journal of Web Engineering] Personalized User Models in a Real-world Edge Computing Environment: A Peer-to-peer Federated Learning Framework
 
-Detailed information for [Personalized User Models in a Real-world Edge Computing Environment: A Peer-to-peer Federated Learning Framework](https://journals.riverpublishers.com/index.php/JWE/article/view/28237) by *Xiangchi Song, Zhaoyan Wang, KyeongDeok Baek*, and *In-Young Ko*. School of Computing,  Korea Advanced Institute of Science and Technology,  Daejeon, Republic of Korea. This is the extended version of paper: [EPFLU: Efficient Peer-to-peer Federated Learning for Personalized User Models in Edge-Cloud Environments](https://link.springer.com/chapter/10.1007/978-3-031-75110-3_1), most of the basic settings are the same, only the updates are introduced here.
+Detailed information for [Personalized User Models in a Real-world Edge Computing Environment: A Peer-to-peer Federated Learning Framework](https://journals.riverpublishers.com/index.php/JWE/article/view/28237) by *Xiangchi Song, Zhaoyan Wang, KyeongDeok Baek*, and *In-Young Ko*. School of Computing,  Korea Advanced Institute of Science and Technology,  Daejeon, Republic of Korea. This is the extended version of paper [EPFLU: Efficient Peer-to-peer Federated Learning for Personalized User Models in Edge-Cloud Environments](https://link.springer.com/chapter/10.1007/978-3-031-75110-3_1) published in ICWE 2024, most of the basic settings are the same, only the updates are introduced here.
 
 ## Table of Contents
 * Overview
