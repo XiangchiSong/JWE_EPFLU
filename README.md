@@ -20,7 +20,7 @@ As the number of IoT devices and the volume of data increase, distributed comput
 <img src="https://github.com/XiangchiSong/JWE_EPFLU/blob/main/Figures/EUA.png" alt="Image" width="600">
 </div>
 
-We utilized a set of [EUA datasets](https://github.com/PhuLai/eua-dataset) derived from real-world data sources [1], which includes the geographical locations of all cellular base stations in Australia. In our study, we used the server distribution data from the dataset and subsequently deployed the data and models at these server locations.
+We utilized a set of [EUA datasets](https://github.com/PhuLai/eua-dataset) derived from real-world data sources[1], which includes the geographical locations of all cellular base stations in Australia. In our study, we used the server distribution data from the dataset and subsequently deployed the data and models at these server locations.
 
 Geographical Range:
 - **Latitude Range**: `[-33.5, -33]`.
