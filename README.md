@@ -20,6 +20,18 @@ As the number of IoT devices and the volume of data increase, distributed comput
 <img src="https://github.com/XiangchiSong/JWE_EPFLU/blob/main/Figures/EUA.png" alt="Image" width="600">
 </div>
 
+We utilized a set of [EUA datasets](https://github.com/PhuLai/eua-dataset) derived from real-world data sources [10], which includes the geographical locations of all cellular base stations in Australia. In our study, we used the server distribution data from the dataset and subsequently deployed the data and models at these server locations.
+
+Geographical Range:
+- **Latitude Range**: `[-33.5, -33]`.
+- **Longitude Range**: `[140, 150]`.
+
+Sampling Settings:
+- **Client Nodes**: `664`.
+- **Client Nodes**: `500`.
+
+It is a reasonable sampling range that prevents issues resulting from a region that is too large, which could cause excessive distances between some clients, and from a region that is too small, which could lead to redundant sampling. It is important to note that the EUA dataset itself does not distinguish between cloud and edge servers. In traditional FL methods, the cloud server’s role is to be the aggregator, aggregating submodels from clients. Therefore, we selected the server closest to the center of this range as the aggregator. We assume this server does not participate in training but only in the aggregation process, acting as the cloud server for selected FL algorithms.
+
 ## Code & Experimental Records
 ***We will make it public after the paper is published.***
 
@@ -39,18 +51,14 @@ If you like our works, please cite our paper:
 Also, feel free to contact us: xcsong@kaist.ac.kr, we will reply to you within three working days！
 
 ## Special Thanks
-We would like to give a special thanks to the friends who provided help in this paper. We thank [Tuo Zhang](https://tuo-zhang.com/) for inspiring our research ideas, [Qian Chen](https://kqkq926.github.io/) for providing us with the baseline reproduction method[4], and [Jed Mills](https://scholar.google.com/citations?user=30_1nBcAAAAJ&hl=zh-CN&oi=sra)'s work for inspiring our personalized solution[2].
+We would like to give a special thanks to the friends who provided help in this paper. We thank [Tuo Zhang](https://tuo-zhang.com/) for inspiring our research ideas, [Qian Chen](https://kqkq926.github.io/) for providing us with the baseline reproduction method[2], and [Jed Mills](https://scholar.google.com/citations?user=30_1nBcAAAAJ&hl=zh-CN&oi=sra)'s work for inspiring our personalized solution[3].
 
 ## References
-[1] McMahan B, Moore E, Ramage D, et al. [Communication-efficient learning of deep networks from decentralized data](https://proceedings.mlr.press/v54/mcmahan17a?ref=https://githubhelp.com)[C]//Artificial intelligence and statistics. PMLR, 2017: 1273-1282.
+[1] Phu Lai, Qiang He, Mohamed Abdelrazek, Feifei Chen, John Hosking, John Grundy, and Yun Yang, [Optimal Edge User Allocation in Edge Computing with Variable Sized Vector Bin Packing](https://link.springer.com/chapter/10.1007/978-3-030-03596-9_15), 16th International Conference on Service-Oriented Computing (ICSOC2018), pp. 230-245, Hangzhou, China, 2018.
 
-[2] Mills J, Hu J, Min G. [Multi-task federated learning for personalised deep neural networks in edge computing](https://ieeexplore.ieee.org/abstract/document/9492755)[J]. IEEE Transactions on Parallel and Distributed Systems, 2021, 33(3): 630-641.
+[2] Chen Q, Wang Z, Zhang W, et al. [PPT: A privacy-preserving global model training protocol for federated learning in P2P networks](https://www.sciencedirect.com/science/article/pii/S0167404822003583)[J]. Computers & Security, 2023, 124: 102966.
 
-[3] Reddi S, Charles Z, Zaheer M, et al. [Adaptive federated optimization](https://arxiv.org/abs/2003.00295)[J]. arXiv preprint arXiv:2003.00295, 2020.
-
-[4] Chen Q, Wang Z, Zhang W, et al. [PPT: A privacy-preserving global model training protocol for federated learning in P2P networks](https://www.sciencedirect.com/science/article/pii/S0167404822003583)[J]. Computers & Security, 2023, 124: 102966.
-
-[5] Liu L, Zhang J, Song S H, et al. [Client-edge-cloud hierarchical federated learning](https://ieeexplore.ieee.org/abstract/document/9148862)[C]//ICC 2020-2020 IEEE international conference on communications (ICC). IEEE, 2020: 1-6.
+[3] Mills J, Hu J, Min G. [Multi-task federated learning for personalised deep neural networks in edge computing](https://ieeexplore.ieee.org/abstract/document/9492755)[J]. IEEE Transactions on Parallel and Distributed Systems, 2021, 33(3): 630-641.
 
 ## 
 Copyright © 2024 Xiangchi Song, Zhaoyan Wang, KyeongDeok Baek, and In-Young Ko
