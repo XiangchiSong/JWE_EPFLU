@@ -17,7 +17,7 @@ As the number of IoT devices and the volume of data increase, distributed comput
 
 ## Experimental Setup Based on Real-world Server Distribution
 <div align=center>
-<img src="https://github.com/XiangchiSong/JWE_EPFLU/blob/main/Figures/EUA.png" alt="Image" width="400">
+<img src="https://github.com/XiangchiSong/JWE_EPFLU/blob/main/Figures/EUA.png" alt="Image" width="600">
 </div>
 
 ## Code & Experimental Records
